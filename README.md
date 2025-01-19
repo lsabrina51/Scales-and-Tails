@@ -25,6 +25,7 @@ Navigating the repo:
 3. Code: The trained models are in the h5 file and .keras file
 4. Repo: https://github.com/lsabrina51/Scales-and-Tails
 An explanation of what the key files are: Our key files are: CatEmotionFunctional.ipynb, fishModel.ipynb in the github repo
+5. Cat Test Images provides some example images to use to test the program
 
 Instructions on how to run your project:
 
