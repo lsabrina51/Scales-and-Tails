@@ -1,0 +1,26 @@
+/* Fullscreen hero section */
+.hero {
+  height: 100vh; /* Full viewport height */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  font-size: 1.2rem;
+  padding: 15px 30px;
+}
+
+li{
+  list-style: none;
+}

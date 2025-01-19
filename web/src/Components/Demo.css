@@ -1,0 +1,86 @@
+.Upload {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #00008b;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #00008b;
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+
+  h3 {
+    color: #00008b;
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  p {
+    color: black;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+  
+  .uploaded-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  label {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .identify-button{
+    display: block;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  label:hover {
+    background-color: #2980b9;
+  }
+  
+#upload-btn{
+    display:none;
+}
+
+img{
+    max-height: 500px;
+    max-width: 500px; 
+    height: 500px;
+    width: 500px; 
+    margin: auto auto; 
+}
+
