@@ -1,0 +1,44 @@
+/* TitleAndCaption.css */
+
+.title-container {
+    width: 50%; /* Takes up half of the screen */
+    height: 100vh; /* Full height of the screen */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide anything out of bounds */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../../assets/cat4.jpg"); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Set opacity for shady effect */
+    display: flex;
+    flex-direction: column; /* Stack the title and caption vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    z-index: 1; /* Ensures the title is above the background */
+  }
+  
+  .caption {
+    font-size: 1.5rem;
+    color: white;
+    font-style: italic;
+    margin-top: 20px; /* Space between title and caption */
+    z-index: 1; /* Ensures the caption is above the background */
+  }
+  

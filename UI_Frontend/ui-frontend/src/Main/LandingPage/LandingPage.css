@@ -1,0 +1,12 @@
+/* LandingPage.css */
+
+.landing-container {
+    display: flex; /* Use flex to divide the screen into two parts */
+    width: 100%;
+    height: 100vh; /* Full height */
+    overflow: hidden;
+  }
+
+  .title{
+    z-index: 1;
+  }

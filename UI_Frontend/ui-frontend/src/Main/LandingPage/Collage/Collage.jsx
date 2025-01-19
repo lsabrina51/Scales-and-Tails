@@ -1,11 +1,9 @@
 import React from "react";
 import "./Collage.css";
-import cat1 from "../../assets/cat1.jpg"
-import cat2 from "../../assets/cat2.jpg"
-import cat3 from "../../assets/cat3.jpeg"
-import cat4 from "../../assets/cat4.jpg"
-import cat5 from "../../assets/cat5.jpg"
-import cat6 from "../../assets/cat6.jpg"
+import cat3 from "../../../assets/cat3.jpeg"
+import cat4 from "../../../assets/cat4.jpg"
+import cat5 from "../../../assets/cat5.jpg"
+import cat6 from "../../../assets/cat6.jpg"
 
 const Collage = () => {
   return (
