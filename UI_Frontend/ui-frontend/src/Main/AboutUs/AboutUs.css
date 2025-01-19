@@ -1,0 +1,22 @@
+/* About Us section styles */
+.about-us-section {
+    background-color: #78A2CC; /* Blue shade */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    line-height: 1.8;
+  }
+  
+  .about-us-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  }
+  
+  .about-us-section p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  

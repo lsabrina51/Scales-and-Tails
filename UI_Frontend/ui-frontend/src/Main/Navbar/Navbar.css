@@ -1,0 +1,68 @@
+/* Basic navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Spread out menu and GitHub icon */
+    align-items: center;
+    background-color: #4292C6;
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Navbar menu styling */
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin: 0 15px;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-menu a:hover {
+    color: #00bcd4;
+  }
+  
+  /* GitHub icon styling */
+  .github-icon {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .github-icon:hover {
+    color: #00bcd4; /* Hover effect on GitHub icon */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none; /* Collapse menu on mobile */
+      flex-direction: column;
+      background-color: #444;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 200px;
+      border-radius: 5px;
+    }
+  
+    .navbar-menu.active {
+      display: flex;
+    }
+  
+    .navbar-menu li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+  
